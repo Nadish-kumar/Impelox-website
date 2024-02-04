@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;800&display=swap');
+
+.job{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 91px;
+color: #483D8B;
+padding-top: 110px;
+}
+.job_content{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: 0.6px;
+color: #483D8B;
+}
+.job_back{
+    background-color:  #FAFAFA;
+    margin-top: 76px;
+    padding-bottom: 80px;
+}
+.job_res{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 57px;
+color: #483D8B;
+padding-top: 12px;
+}
+.job_desc{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 40px;
+letter-spacing: 0.6px;
+color: #483D8B;
+padding-top: 24px;
+}
+.job_expect{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 57px;
+color: #483D8B;
+margin-top: 49px;
+}
+.job_ref{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 40px;
+letter-spacing: 0.6px;
+color: #483D8B;
+padding-top: 24px;
+}
+.intersted{
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 33px;
+color: #483D8B;
+margin-top: 64px;
+}
+.footer_job{
+    margin-top: 121px;
+}

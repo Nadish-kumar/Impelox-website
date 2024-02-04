@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;800&display=swap');
+
+.header_bgcolor {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.header_common_color {
+    background: rgba(255, 255, 255, 0.77);
+    /* background-color: transparent; */
+    backdrop-filter: blur(12.5px);
+    z-index: 2px;
+}
+
+.header_bgcolor {}
+
+
+.menu {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #384878;
+    padding: 12px 24px;
+}
+.company_header_right{
+    margin: 0px;
+    padding: 0px;
+}
+.company_header_left{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu:hover {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    background: linear-gradient(270deg, #2F1B8A 0%, #9C10E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.company_header {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 5px;
+}
+
+.option_body {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.company_logo {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* .container-fluid {
+    position: relative;
+
+} */
+
+.bg_company_color {
+    background-color: #FFFF;
+}
+
+.menu-link {
+    text-decoration: none;
+}
+.company_header_left{
+    padding: 0px;
+    margin: 0px;
+}

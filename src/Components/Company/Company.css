@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;800&display=swap');
+
+.company_image {
+    background: url('../../asset/company.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    margin: 0px;
+    position: relative;
+
+}
+
+.header_bgcolor {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.header_bgcolor {
+    background: rgba(255, 255, 255, 0.52);
+}
+
+.home_company {
+    list-style: none;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background: linear-gradient(180deg, #820FC4 0%, #280865 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 20px 44px;
+
+}
+
+.company_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option_body {
+    display: flex;
+}
+
+/* .company_logo {
+    padding: 20px;
+} */
+
+
+
+.bg_company_color {
+    background-color: #FFFF;
+}
+
+
+
+.story {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.story_heading {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 62px;
+    color: #12054E;
+}
+
+.story_body {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 156%;
+    letter-spacing: 0.6px;
+    color: black;
+    padding-bottom: 115px;
+}
+
+.story_highlight {
+    list-style: none;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    background: linear-gradient(180deg, #820FC4 0%, #280865 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.vision {
+    background: linear-gradient(272.48deg, #2E1A89 20.13%, #A00FE4 99.22%);
+}
+
+.vision_main {
+
+    text-align: center;
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+
+.vision_header {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.vision_body {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 156%;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+
+}
+
+.team {
+    background-color: #FFFFFF;
+}
+
+.team_header {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 62px;
+    color: #272727;
+    padding-top: 102px;
+    text-align: center;
+}
+
+.founder_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.empolyee_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 48px;
+}
+
+.member_content {
+    margin: 0px;
+    padding: 0px;
+}
+
+.name {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #272727;
+    padding-top: 10px !important;
+}
+
+.position_office {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #272727;
+}
+
+.member_about {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 23px;
+    color: #272727;
+    max-width: 250px;
+    padding-top: 10px;
+    padding-bottom: 32px;
+}
+
+
+.team_card {
+    margin-top: 72px;
+    margin: 8px;
+}
+
+.team_cards {
+    padding: 60px;
+    margin-top: 32px;
+}
+
+.boat_secondary {
+    position: absolute;
+    top: 76px;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.crew {
+    /* background-color: #6A397B; */
+    background: linear-gradient(272.48deg, #2E1A89 20.13%, #A00FE4 99.22%);
+    height: 438px;
+}
+
+.crew_heading {
+    font-family: Plus Jakarta Sans;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 92px;
+    margin: 0px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.crew_subheading {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 16px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 156%;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.crew_btn {
+    max-width: 293px;
+    margin: auto;
+    height: 56px;
+    background: linear-gradient(93.18deg, #9D0FE1 0.98%, #150651 113.11%);
+    text-align: left;
+    margin-top: 55px;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+.apply_text {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+
+}
+
+.mambers_image {
+    width: 250px;
+    height: fit-content;
+}
+
+.crew_main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.crew_right {
+    padding-top: 78px;
+}
+
+.apply_btn {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 62px;
+    /* background: linear-gradient(93.18deg, #9D0FE1 0.98%, #150651 113.11%); */
+    background: #FFC737;
+    color: black;
+    border-radius: 4px;
+    width: 293px;
+    height: 56px;
+    border: none;
+    margin-top: 55px;
+}

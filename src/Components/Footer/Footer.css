@@ -1,0 +1,152 @@
+.footer {
+    background-color: #FAF8FF;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.sub_footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.right_subfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 49px;
+}
+
+.address {
+    text-align: right;
+}
+
+.linked_icon {
+    background-color: #FFFFFF;
+    width: 53px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+.footer_header {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: #270864;
+}
+
+.rights {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    color: #270864;
+}
+
+.email {
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    color: #270864;
+    padding-top: 20px;
+}
+
+.address {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: right;
+    color: #270864;
+}
+
+/* .address_mobile{
+    display: none;
+   } */
+
+
+
+
+@media screen and (max-width: 600px) {
+    .footer_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub_footer {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 156%;
+        /* or 28px */
+
+        text-align: center;
+
+        color: #270864;
+    }
+
+    .footer_logo {
+        text-align: center;
+    }
+
+    .right_subfooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rights {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        color: #270864;
+        max-width: 260px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .address {
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        color: #270864;
+    }
+
+    .email {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 156%;
+        color: #270864;
+    }
+}
